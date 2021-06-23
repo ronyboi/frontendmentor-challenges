@@ -1,0 +1,38 @@
+body {
+  background-color: #19a2ae;
+  background-repeat: no-repeat;
+  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+  background-size: 50%;
+  background-position: top -300px left -150px, bottom -300px right -150px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card {
+  font-size: large;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution .a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=main.css.map */
